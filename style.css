@@ -5,31 +5,24 @@ body {
 }
 
 #step2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
+    text-align: center;
 }
 
-input,
-textarea {
+#step2 input,
+#step2 textarea,
+#step2 button {
+    display: block;
     width: 320px;
+    margin: 12px auto;
     padding: 10px;
     box-sizing: border-box;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    font-size: 16px;
 }
 
-textarea {
+#step2 textarea {
     height: 100px;
     resize: vertical;
 }
 
 button {
-    padding: 10px 20px;
     cursor: pointer;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
 }
